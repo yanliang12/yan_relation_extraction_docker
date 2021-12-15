@@ -3,7 +3,8 @@
 ## start the service
 
 ```bash
-docker pull yanliang12/yan_relation_extraction:1.0.2
+
+docker build -t yanliang12/yan_relation_extraction:1.0.2 .
 
 docker run -it yanliang12/yan_relation_extraction:1.0.2
 ```
